@@ -1,8 +1,11 @@
-<!-- I don't have any idea what the fuck I'm doing -->
+<!-- I don't have any idea what the fuck I'm doing 
+Still messing around -->
 
 <!DOCTYPE html>
 <html>
 <head>
+
+h3 {}
 
 h2 {
   background-color: red;
