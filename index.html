@@ -168,6 +168,32 @@ Cthree {
   top: 220px;
   left: 220px;
 }
+
+.statusbox {
+  text-align: center;
+  background-color: white;
+  margin: auto;
+  z-index: 1;
+  height: 20px;
+  width: 310px;
+  position: fixed;
+  top: 325px;
+  left: 0px;
+  border: 5px solid black;
+}
+
+.roundCounter {
+  text-align: center;
+  background-color: white;
+  margin: auto;
+  z-index: 1;
+  height: 20px;
+  width: 310px;
+  position: fixed;
+  top: 355px;
+  left: 0px;
+  border: 5px solid black;
+}
 </style>
 
 </head>
@@ -204,6 +230,13 @@ Cthree {
 
 <Cthree id=Cthree>
 </Cthree>
+
+<StatusBox class=statusbox>
+X turn
+</StatusBox>
+
+<RoundCounter class=roundCounter>
+</RoundCounter>
   
 <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
 
